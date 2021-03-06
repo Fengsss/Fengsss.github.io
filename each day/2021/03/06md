@@ -1,0 +1,18 @@
+## 03-06
+
+
+
+###  learn
+
+<ul>
+    <li>浏览器对象模型之间的层次关系如下图</li>
+    <li>我们对浏览器的操作实际上都是通过浏览器对象模型中的一些方法来实现</li>
+    <li>window对象被复用为ECMAScript的global对象，因此全局变量和函数都是其属性</li>
+    <li>alert; confirm; prompt三个方法的返回值</li>
+    <li>location对象用于操控url相关信息，location.href赋值可直接更改，replace方法不同在于不会记录历史信息，从而无法返回</li>
+    <li>history对象保存用户历史记录，每个window对象都有一个history对象；调用go; back; forward等方法可实现历史状态的切换</li>
+</ul>
+
+
+
+![img](https://img-blog.csdn.net/20170919202808535)
